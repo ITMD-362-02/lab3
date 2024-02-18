@@ -1,5 +1,11 @@
+:root {
+  --primary-color: #25719c;
+  --secondary-color: #eeeeee;
+  --text-color: #252525;
+}
+
 html {
-  background-color: #181a1b !important;
+  background-color: var(--secondary-color) !important;
 }
 
 body {
@@ -7,7 +13,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: medium;
-  color: #e8e6e3;
+  color: var(--text-color);
   margin: 5% 5%;
   padding: 1rem;
 }
@@ -36,13 +42,13 @@ p {
   border: none;
   border-radius: 5px;
   outline: none;
-  background-color: rgb(68, 68, 68);
+  background-color: #666666;
   width: 100%;
   height: 50px;
   box-sizing: border-box;
   margin: 0 auto;
   display: block;
-  color: #e8e6e3;
+  color: #eeeeee;
   padding: 0 1rem;
   font-family: "montserrat", Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
@@ -62,7 +68,7 @@ p {
 #input-age-verification input[type="checkbox"] {
   height: 0.8rem;
   width: 0.8rem;
-  accent-color: rgb(37, 113, 156)
+  accent-color: var(--primary-color);
 }
 
 #input-submit {
@@ -75,8 +81,8 @@ p {
   border: none;
   border-radius: 5px;
   padding: 0% 3%;
-  background-color: rgb(37, 113, 156);
-  color: white;
+  background-color: var(--primary-color);
+  color: #fff;
   font-family: "montserrat", Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   transition: filter 0.25s ease;
@@ -85,6 +91,14 @@ p {
 
 #submit:hover {
   filter: brightness(50%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #25719c;
+    --secondary-color: #181a1b;
+    --text-color: #e8e6e3;
+  }
 }
 
 @media screen and (max-width: 530px) {
