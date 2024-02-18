@@ -89,7 +89,7 @@ p {
 
 @media screen and (max-width: 530px) {
   body {
-    margin: 2% 2%;
+    margin: 0 0;
   }
 
   h1 {
@@ -118,7 +118,7 @@ p {
   #input-age-verification label {
     font-size: 0.7rem;
     line-height: 1rem;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   #input-age-verification input[type="checkbox"] {
