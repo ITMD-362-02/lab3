@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "montserrat", sans-serif;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: medium;
@@ -44,7 +44,7 @@ p {
   display: block;
   color: #e8e6e3;
   padding: 0 1rem;
-  font-family: "montserrat", sans-serif;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
 }
 
@@ -77,7 +77,7 @@ p {
   padding: 0% 3%;
   background-color: rgb(37, 113, 156);
   color: white;
-  font-family: "montserrat", sans-serif;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   transition: filter 0.25s ease;
   cursor: pointer;
