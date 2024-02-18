@@ -86,3 +86,50 @@ p {
 #submit:hover {
   filter: brightness(50%);
 }
+
+@media screen and (max-width: 530px) {
+  body {
+    margin: 2% 2%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #input-email label {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
+  #input-email input {
+    height: 40px;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+  #input-age-verification input[type="checkbox"],
+  #input-age-verification label {
+    font-size: 0.7rem;
+    line-height: 1rem;
+    margin-bottom: 5px;
+  }
+
+  #input-age-verification input[type="checkbox"] {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  #submit {
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
